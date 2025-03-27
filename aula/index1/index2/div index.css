@@ -1,0 +1,56 @@
+div{
+    width: 400px;
+    height: 300px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.centro{
+    background-color: indigo;
+    margin: 0 auto;
+}
+
+.pegajoso{
+    background-color: chocolate;
+    position: sticky;
+    top: 100px;
+    left: 400px;
+}
+
+.relativo{
+    background-color: darkorchid;
+    position: relative;
+    top: 200px;
+    left: 800px;
+}
+
+.fixado{
+    background-color: hotpink;
+    position: fixed;
+    top: 200px;
+    left: 200px
+}
+
+.estatico{
+    background-color: dodgerblue;
+    position: static;
+    top: 200px;
+    left: 300px;
+}
+
+.absoluto{
+    background-color: peru;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.esquerda{
+    background-color: aqua;
+    float: left;
+}
+
+.direita{
+    background-color: cadetblue;
+    float: right;
+}
