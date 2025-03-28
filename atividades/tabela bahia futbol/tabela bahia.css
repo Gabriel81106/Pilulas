@@ -39,6 +39,15 @@ th{
 .tabelafutbol{
     border: 1px solid #DDDDDD;
     font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px  solid #DDDDDD;
+}
+
+.borda{
+    border-top: 2px solid #DDDDDD;
 }
 
 .classificaçaoazule{
@@ -78,6 +87,7 @@ th{
 }
 
 .tituloco{
+    width: 25px;
     font-size: 13px;
     font-weight: bold;
     color: #999999;
