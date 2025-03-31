@@ -47,7 +47,7 @@ tr{
 }
 
 .borda{
-    border-top: 2px solid #DDDDDD;
+    border-top: 2px solid #cccccc;
 }
 
 .classificaçaoazule{
@@ -108,10 +108,24 @@ tr{
     font-weight: bold;
     color: black;
     text-align: center;
+    background-color: #f7f7f7;
 }
 
 .estatistica{
     font-size: 14px;
     color: #666666;
     text-align: center;
+    width: 6%;
+}
+
+.porcentagem{
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    width: 9%;
+}
+
+#linha{
+    background-color: #f7f7f7;
+
 }
