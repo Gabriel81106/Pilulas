@@ -7,47 +7,46 @@ body{
     text-align: center;
 }
 
-.fia{
-    float: left;
-    margin-left: 40px;
-    margin-top: 25px;
-}
-
-.f1logo{
-    float: right;
-    margin-top: 45px;
-    margin-right: 60px;
+.cabecalho{
+    background-color: #4f5758;
+    color: white;
+    padding: 2.8rem;
+    text-align: center;
 }
 
 tr{
     border-bottom: 1px solid #3f4249;
 }
 
-.tabela{
+.tabela {
     width: 300px;
     border: 2px solid #3f4249;
     border-collapse: collapse;
+    margin: 0 1rem;
 }
 
-.tabela2{
+.tabela2 {
     width: 450px;
     border: 2px solid #3f4249;
     border-collapse: collapse;
+    margin: 0 1rem;
 }
 
-.aa{
-    background-color: rgba(255, 255, 255, 1);
-    float: left;
+.tables-container{
+    display: flex;
     justify-content: center;
-    align-content: center;
-    width: 750px;
+    align-items: flex-start; /* Adjust alignment to top if needed */
+    margin-top: 2rem;
+    gap: 2rem;
+    width: 100%; /* Ensure container spans full width */
 }
 
-.bb{
+.table {
     background-color: rgba(255, 255, 255, 1);
-    position: relative;
-    float: left;
-    justify-content: center;
-    align-content: center;
-    width: 634px;
+    width: auto; /* Adjust width to fit content */
+}
+
+.table2 {
+    background-color: rgba(255, 255, 255, 1);
+    width: auto; /* Adjust width to fit content */
 }
