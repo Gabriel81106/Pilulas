@@ -1,52 +1,113 @@
 body{
-    background-color: #f2f2f3;
+    background-color: #404040;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
 }
 
 .titulo{
     text-align: center;
+    color: white;
 }
 
 .cabecalho{
+    background-image: url('imagens/carro.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: #4f5758;
     color: white;
     padding: 2.8rem;
     text-align: center;
 }
 
-tr{
-    border-bottom: 1px solid #3f4249;
+.rodape{
+    color: white;
+    padding: 1rem;
 }
 
-.tabela {
+/*.tabela{
     width: 300px;
     border: 2px solid #3f4249;
     border-collapse: collapse;
     margin: 0 1rem;
+    height: 100%;
 }
 
-.tabela2 {
+.tabela2{
     width: 450px;
     border: 2px solid #3f4249;
     border-collapse: collapse;
     margin: 0 1rem;
-}
+}*/
 
-.tables-container{
+.tabelas{
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Adjust alignment to top if needed */
+    align-items: stretch;
     margin-top: 2rem;
     gap: 2rem;
-    width: 100%; /* Ensure container spans full width */
+    width: 100%;
 }
 
-.table {
-    background-color: rgba(255, 255, 255, 1);
-    width: auto; /* Adjust width to fit content */
+.table{
+    display: flex;
+    flex-direction: column;
+    width: auto;
 }
 
-.table2 {
-    background-color: rgba(255, 255, 255, 1);
-    width: auto; /* Adjust width to fit content */
+/*.tabelaequipe{
+    width: 300px;
+    border: 2px solid #3f4249;
+    border-collapse: collapse;
+    margin: 0 1rem;
+    height: 100%;
+}*/
+
+.f1{
+    filter: brightness(0) invert(1)
+}
+
+
+.tabelapiloto{
+    background-color: #2c2c2c;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem; /* Add padding inside the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.tabela2{
+    background-color: #2c2c2c;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.tabelaequipe{
+    background-color: #2c2c2c;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 0.5rem; /* Add spacing inside table cells */
+    text-align: center;
+}
+
+th {
+    background-color: #3a3a3a;
+}
+
+tr:nth-child(even) {
+    background-color: #3a3a3a;
+}
+
+tr:nth-child(odd) {
+    background-color: #2c2c2c;
 }
