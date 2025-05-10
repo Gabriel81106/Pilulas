@@ -28,7 +28,7 @@ function calcular(){
     somaMedias.textContent = mediasSomadas;
 
     let medias = (mediasSomadas) / 2;
-    mediaTudo.textContent = medias;
+    mediaTudo.innerHTML = medias + "<p>calculos efetudados</p>";
 }
 
 botao.onclick = function(){
