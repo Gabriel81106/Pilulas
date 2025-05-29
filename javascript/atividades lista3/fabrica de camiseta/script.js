@@ -12,4 +12,6 @@ function calcular(){
     resultado.textContent = "O valor total da venda é: R$ " + (num1 + num2 + num3);
 }
 
-botao.onclick = calcular;
+botao.onclick = function(){
+    calcular();
+};

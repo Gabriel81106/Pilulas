@@ -16,4 +16,6 @@ function calcularDistancia(){
     resultado.textContent = distancia;
 }
 
-botao.onclick = calcularDistancia;
+botao.onclick = function(){
+    calcularDistancia();
+};
